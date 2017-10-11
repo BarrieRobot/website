@@ -2,6 +2,7 @@ $(document).ready(function () {
     
     var $background_display = $('.background_display'),
         $background_blur = $('.background_blur'),
+        $parallax_wrapper = $(".parallax-wrapper"),
         wHeight  = $(window).height();
     
     $(window).on('resize', function(){
@@ -27,13 +28,13 @@ $(document).ready(function () {
     Scroller.prototype = {
         
         init: function() {
-            window.addEventListener('scroll', this.onScroll.bind(this), false);
+            $parallax_wrapper.on('scroll', this.onScroll.bind(this));
             //$background_blur.css('background-image',$('header:first-of-type').css('background-image'));
         },
         
         
         onScroll: function() {
-            this.latestKnownScrollY = window.scrollY;
+            this.latestKnownScrollY = $parallax_wrapper.scrollTop();
             this.requestTick();
         },
         
@@ -49,10 +50,10 @@ $(document).ready(function () {
             var currentScrollY = this.latestKnownScrollY;
             this.ticking = false;
             
-            $background_display.css('transform', 'translate3d(0, ' + (currentScrollY * 0.3) + 'px, 0)');
-
+            //$background_display.css('transform', 'translate3d(0, ' + (currentScrollY * 0.3) + 'px, 0)')
+            
             var opacity = 1.8 * (currentScrollY / wHeight);
-
+            
             if (opacity < 1) {
                 $background_blur.css('opacity', opacity);
             } else {
