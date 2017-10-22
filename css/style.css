@@ -110,6 +110,24 @@ footer {
     margin: 5rem 0;
 }
 
+.partner_logos {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+
+.partner_logo {
+    margin: 1rem 0;
+}
+
+.partner_logos img {
+    width: 100%;
+}
+
+.partner_logo .row {
+    justify-content: center;
+}
+
 
 
 @media (min-width: 767px) {
