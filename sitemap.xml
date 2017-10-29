@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Created using XmlSitemapGenerator.org - Free HTML, RSS and XML sitemap generator-->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+  <url>
+    <loc>https://project-barrie.nl/</loc>
+    <lastmod>2017-10-28</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://project-barrie.nl/contact.html</loc>
+    <lastmod>2017-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://project-barrie.nl/full_concept.html</loc>
+    <lastmod>2017-10-26</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+</urlset>
+<!--<guid value="80251fc1-9cc1-4bce-b7d7-af5e116cd935" />-->
+<!--Created using XmlSitemapGenerator.org - Free HTML, RSS and XML sitemap generator-->
