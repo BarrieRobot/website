@@ -102,6 +102,12 @@ footer {
     margin-bottom: 1rem;
 }
 
+.barrie_pics img {
+    /*max-height: 24rem;*/
+    max-width: 100%;
+    margin-bottom: 1rem;
+}
+
 .navbar-transparent {
     background: transparent;
     border-color: transparent;
